@@ -10,14 +10,12 @@ import 'package:fly/yuneec/utils/Log.dart';
 import 'package:fly/yuneec/utils/providers/cameraProviders.dart';
 import 'package:oktoast/oktoast.dart';
 import 'package:provider/provider.dart';
-
-import 'file:///F:/ASworkspace/yuneec_fly/lib/yuneec/setting/settingsWidget.dart';
-
-import 'camera/cameraRightWidget.dart';
-import 'camera/cameraStateWidget.dart';
-import 'cameraWidget.dart';
-import 'mapWidget.dart';
-import 'utils/providers/settingsProviders.dart';
+import 'package:fly/yuneec/setting/settingsWidget.dart';
+import 'package:fly/yuneec/camera/cameraRightWidget.dart';
+import 'package:fly/yuneec/camera/cameraStateWidget.dart';
+import 'package:fly/yuneec/cameraWidget.dart';
+import 'package:fly/yuneec/mapWidget.dart';
+import 'package:fly/yuneec/utils/providers/settingsProviders.dart';
 
 class MainWeight extends StatefulWidget {
   MainWeightState mainWeightState;

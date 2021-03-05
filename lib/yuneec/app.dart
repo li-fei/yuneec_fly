@@ -3,7 +3,7 @@ import 'package:fly/yuneec/test/TestMain.dart';
 import 'package:fly/yuneec/test/debug/debugProviders.dart';
 import 'package:fly/yuneec/test/providerMain.dart';
 import 'package:fly/yuneec/utils/providers/cameraProviders.dart';
-import 'file:///F:/ASworkspace/yuneec_fly/lib/yuneec/utils/providers/Providers.dart';
+import 'package:fly/yuneec/utils/providers/Providers.dart';
 import 'package:provider/provider.dart';
 
 //import 'test/AnimatedWidget.dart';

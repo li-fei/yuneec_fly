@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, lines_longer_than_80_chars
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'file:///F:/ASworkspace/yuneec_fly/lib/yuneec/utils/providers/Providers.dart';
+import 'package:fly/yuneec/utils/providers/Providers.dart';
 import 'package:provider/provider.dart';
 
 import 'TwoWidget.dart';

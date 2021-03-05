@@ -1,15 +1,9 @@
 import 'package:flutter/material.dart';
-import 'file:///F:/ASworkspace/yuneec_fly/lib/yuneec/setting/settingsWidget.dart';
 import 'package:fly/yuneec/utils/EventBus.dart';
 import 'package:fly/yuneec/utils/Global.dart';
-import 'file:///F:/ASworkspace/yuneec_fly/lib/yuneec/utils/providers/Providers.dart';
+import 'package:fly/yuneec/utils/providers/Providers.dart';
 import 'package:oktoast/oktoast.dart';
-
-import '../camera/cameraRightWidget.dart';
-import '../camera/cameraStateWidget.dart';
-import '../cameraWidget.dart';
-import '../map/amap.dart';
-import '../mapWidget.dart';
+import 'package:fly/yuneec/cameraWidget.dart';
 import 'package:provider/provider.dart';
 
 import 'amintionTest.dart';

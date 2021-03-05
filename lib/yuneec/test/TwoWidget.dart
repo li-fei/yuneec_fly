@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'file:///F:/ASworkspace/yuneec_fly/lib/yuneec/utils/providers/Providers.dart';
+import 'package:fly/yuneec/utils/providers/Providers.dart';
 import 'package:provider/provider.dart';
 
 class TwoWidget extends StatefulWidget {

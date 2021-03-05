@@ -4,8 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:fly/yuneec/test/debug/Debug.dart';
 import 'package:fly/yuneec/utils/LoadingDialog.dart';
 import 'package:fly/yuneec/utils/Log.dart';
-
-import 'CommonSetting.dart';
+import 'package:fly/yuneec/setting/CommonSetting.dart';
 
 class SettingsWidget extends StatefulWidget {
   @override

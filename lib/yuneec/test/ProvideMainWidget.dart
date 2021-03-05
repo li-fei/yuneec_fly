@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'file:///F:/ASworkspace/yuneec_fly/lib/yuneec/setting/settingsWidget.dart';
 import 'package:fly/yuneec/utils/EventBus.dart';
 import 'package:fly/yuneec/utils/Global.dart';
-import 'file:///F:/ASworkspace/yuneec_fly/lib/yuneec/utils/providers/Providers.dart';
+import 'package:fly/yuneec/utils/providers/Providers.dart';
 import 'package:oktoast/oktoast.dart';
 
 import '../camera/cameraRightWidget.dart';
