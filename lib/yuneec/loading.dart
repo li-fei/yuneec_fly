@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/screenutil.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'dart:async';
 
 import 'package:fly/yuneec/utils/Global.dart';
@@ -25,11 +25,25 @@ class LoadingState extends State<LoadingPage> {
   Widget build(BuildContext context) {
     // TODO: implement build
     init();
-    return Container(
-//      decoration: BoxDecoration(),
-      child: Image.asset(
-        "assets/images/splash.png",
-        fit: BoxFit.fill,
+//     return Container(
+// //      decoration: BoxDecoration(),
+//       child: Image.asset(
+//         "assets/images/splash.png",
+//         fit: BoxFit.fill,
+//       ),
+//     );
+    return ScreenUtilInit(
+      designSize: Size(1080, 1920),
+      allowFontScaling: false,
+      builder: () => MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: Container(
+          decoration: BoxDecoration(),
+          child: Image.asset(
+            "assets/images/splash.png",
+            fit: BoxFit.fill,
+          ),
+        ),
       ),
     );
   }
@@ -50,7 +64,7 @@ class LoadingState extends State<LoadingPage> {
   }
 
   void init() {
-    ScreenUtil.init(context, width: 1920, height: 1080);
+    // ScreenUtil.init(context, width: 1920, height: 1080);
     getScreenWH(context);
   }
 }

@@ -4,6 +4,7 @@ import 'package:fly/yuneec/utils/Global.dart';
 import 'dart:async';
 
 import 'map/amap.dart';
+import 'package:fly/yuneec/map/GoogleMap.dart';
 
 class MapWidget extends StatefulWidget {
   @override
@@ -23,7 +24,8 @@ class MapWidgetState extends State<MapWidget> {
 
     return Container(
 //      decoration: BoxDecoration(),
-      child: AmapWidget(),
+//       child: AmapWidget(),
+      child: GoogleMap(),
     );
   }
 }

@@ -23,6 +23,7 @@ class _CommonSettingState extends State<CommonSetting> {
   var matchColorSelect;
   var mapProviderSelect;
   var mapTypeSelect;
+
 //  var settingSoundOnOffCheck = false;
   var settingNextStartupCheck = false;
   var settingUseRecomendCheck = false;
@@ -188,7 +189,7 @@ class _CommonSettingState extends State<CommonSetting> {
             width: 20.0,
           ),
           Container(
-            width: ScreenUtil().setWidth(400.0),
+            // width: ScreenUtil().setWidth(400.0),
             padding: EdgeInsets.only(left: 5.0),
             decoration: BoxDecoration(
                 color: Colors.white,
@@ -249,7 +250,7 @@ class _CommonSettingState extends State<CommonSetting> {
               width: 20.0,
             ),
             Container(
-              width: ScreenUtil().setWidth(400.0),
+              // width: ScreenUtil().setWidth(400.0),
               padding: EdgeInsets.only(left: 5.0),
               decoration: BoxDecoration(
                   color: Colors.white,
@@ -685,7 +686,9 @@ class _CommonSettingState extends State<CommonSetting> {
             activeColor: Colors.blue,
             checkColor: Colors.white,
             onChanged: (bool isChecked) {
-              context.read<CommonSettingStatus>().setSettingSoundOnOffCheck(isChecked);
+              context
+                  .read<CommonSettingStatus>()
+                  .setSettingSoundOnOffCheck(isChecked);
               MavLinkUtils().setSettingSoundOnOffCheck();
             },
           ),
